@@ -1,6 +1,6 @@
-# Angular Student Management by Sangwin Gawande [sangw.in](https://sangw.in).
+# Angular Student Management by Sangwin Gawande ([sangw.in])(https://sangw.in).
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.4.
+This project was generated with [Angular CLI 13](https://github.com/angular/angular-cli) version 13.2.4.
 
 ## Development server
 
