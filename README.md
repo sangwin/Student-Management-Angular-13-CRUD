@@ -1,4 +1,41 @@
-# AngularStudentManagement
+# Student Management - Best for beginners
+## Created By [Sangwin Gawande](https://sangw.in)
+
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.4.
+
+## Feature list
+
+ * Admin Login & Logout
+ * Student Listing
+ * Student Searching
+ * Student Details
+ * Student Addition
+ * Student Update
+ * Student Deletion
+
+
+## Angular features used
+
+ * Modules
+ * Routes
+ * Services
+ * Components
+ * Browser Animations
+ * Forms Module
+ * Reactive Forms
+ * Directives
+ * Pipes
+ * Filters
+ 
+
+## Libraries Used
+
+ * W3CSS front end design
+ * Font Awesome Icons
+ * Toaster for success/error messages
+
+
+# Angular Student Management
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.4.
 

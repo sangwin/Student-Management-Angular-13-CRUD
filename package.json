@@ -1,6 +1,11 @@
 {
   "name": "angular-student-management",
-  "version": "0.0.0",
+  "version": "13.0.0",
+  "author": {
+    "name": "Sangwin Gawande",
+    "email": "imsangwin@gmail.com",
+    "url": "https://sangw.in"
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -18,6 +23,7 @@
     "@angular/platform-browser": "~13.2.0",
     "@angular/platform-browser-dynamic": "~13.2.0",
     "@angular/router": "~13.2.0",
+    "ngx-toastr": "^14.2.1",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"

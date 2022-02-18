@@ -1,0 +1,29 @@
+<!-- Created By : Sangwin Gawande (https://sangw.in) -->
+
+<div class="w3-container align-center w3-card login-card">
+	<form [formGroup]="loginForm" (ngSubmit)="doLogin()">
+		<div class="text-center">
+			<a href="https://sangw.in" target="_blank"><img src="assets/sangwin-logo.png" class="logo"></a>
+		</div>
+
+		<label class="w3-text-blue"><b>Email</b></label>
+		<input class="w3-input w3-border" type="email" formControlName="email">
+		<div class="w3-panel w3-red"  *ngIf="loginForm.controls['email'].invalid && (loginForm.controls['email'].dirty || loginForm.controls['email'].touched)">Please enter valid email address</div> 
+
+		<label class="w3-text-blue"><b>Password</b></label>
+		<input class="w3-input w3-border" type="password" formControlName="password">
+		<div class="w3-panel w3-red"  *ngIf="loginForm.controls['password'].invalid && (loginForm.controls['password'].dirty || loginForm.controls['password'].touched)">Password must be at least 6 characters long, and contain a number</div> 
+		<br>
+		<button class="w3-btn w3-blue" type="submit" [disabled]="!loginForm.valid">Login <i class="w3-medium fa fa-check"></i> </button>
+	</form>
+	<div class="w3-panel w3-blue-gray">
+		<h4>Notes : </h4>
+		<p>Credentials : <b>admin@yopmail.com</b> &amp; <b>admin123</b></p>
+		<p>All data will be restored when refreshed</p>
+		<a class="text-right" href="https://sangw.in" target="_blank">Contact me : sangw.in</a>
+		<br/>
+		<br/>
+	</div> 
+</div>
+
+<!-- Created By : Sangwin Gawande (https://sangw.in) -->
