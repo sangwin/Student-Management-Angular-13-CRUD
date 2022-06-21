@@ -3,8 +3,9 @@
   "version": "13.0.0",
   "author": {
     "name": "Sangwin Gawande",
-    "email": "imsangwin@gmail.com",
-    "url": "https://sangw.in"
+    "url": "https://sangw.in",
+    "author": "Sangwin Gawande (https://sangw.in)",
+    "email": "imsangwin@gmail.com"
   },
   "scripts": {
     "ng": "ng",
